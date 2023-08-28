@@ -1,0 +1,135 @@
+/* Heights and Widths */
+
+.h-screen{
+    height: 100vh
+}
+
+.w-400{
+    width:400px
+}
+
+input , select{
+    height: 40px;
+    border: 2px solid rgb(213, 12, 12);
+    width: 100%;
+    padding-left: 20px;
+}
+.ant-form-item{
+    margin: 0 !important;
+}
+
+.card{
+    border: 2px solid rgb(110, 105, 105);
+    box-shadow: 0 0 1px rgb(169, 166, 166) ;
+    border-radius: 12px;
+}
+
+/* text-sizes */
+
+.text-2xl{
+    font-size: 30px !important;
+}
+
+.text-xl{
+    font-size: 25px !important;
+}
+
+.text-lg{
+    font-size: 20px !important;
+}
+
+.text-md{
+    font-size: 18px !important;
+}
+
+.underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* buttons */
+
+.primary-btn{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.bttn{
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: rgb(64, 255, 0);
+    color: rgb(8, 8, 8);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 1s, color 1s;
+}
+
+.bttn:hover{
+ background-color: rgb(0, 145, 255);
+ color: white;
+}
+
+.secondary-btn{
+    background-color: var(--secondary) !important;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.disabled-btn{
+    background-color: gray !important;
+    color: white;
+    border: none !important;
+    cursor: not-allowed;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: var(--primary) !important;
+}
+
+i{
+    cursor: pointer;
+    font-size: 25px;
+}
+ 
+/* Loader */
+
+.spinner-parent{
+    position: absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.462);
+    z-index: 10000;
+}
+
+h1, p{
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
+
+/* bookings table */
+table{
+    border: 1px solid rgb(64, 255, 0) !important;
+}
+
+.spinner-border{
+    color: white;
+    height: 80px;
+    width: 80px;
+}
+

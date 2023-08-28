@@ -1,0 +1,7 @@
+.auth{
+    /* background-color: var(--secondary); */
+    background-image: url(/src/images/GoBus.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
